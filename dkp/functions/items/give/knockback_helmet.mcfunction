@@ -1,0 +1,2 @@
+# ノックバックしないヘルメット
+give @s diamond_helmet{display:{Name:'{"text":"吹き飛び帽子"}',Lore:['{"text":"一回だけ吹き飛ばなくなる"}']},AttributeModifiers:[{AttributeName:"generic.knockback_resistance",Name:"generic.knockback_resistance",Amount:1,Operation:0,UUID:[I;1180464320,-393656370,-1514331946,1272038089]}]} 1

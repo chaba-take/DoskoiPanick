@@ -1,0 +1,48 @@
+{
+    "pools" :[
+        {
+            "rolls" : 1,
+            "bonus_rolls" :1,
+            "entries" : [
+                {
+                    "type":"item",
+                    "name":"minecraft:blaze_rod",
+                    "weight" : 2,
+                    "functions" :[
+                        {
+                            "function" :"minecraft:set_nbt",
+                            "tag": "{display:{Name:'{\"text\":\"金のちくわ\"}',Lore:['{\"text\":\"すっごい吹き飛ぶよ！\"}']},Enchantments:[{id:\"minecraft:knockback\",lvl:7s}]}"
+                        }
+                    ]
+                },
+                {
+                    "type":"item",
+                    "name":"minecraft:diamond_helmet",
+                    "weight" : 1,
+                    "functions" :[
+                        {
+                            "function" :"minecraft:set_nbt",
+                            "tag": "{display:{Name:'{\"text\":\"吹き飛び帽子\"}',Lore:['{\"text\":\"一回だけ吹き飛ばなくなる\"}']},Damage:385,AttributeModifiers:[{AttributeName:\"generic.knockback_resistance\",Name:\"generic.knockback_resistance\",Amount:1,Operation:0,UUID:[I;1180464320,-393656370,-1514331946,1272038089]}]}"
+                        }
+                    ]
+                },
+                {
+                    "type":"item",
+                    "name":"minecraft:bow",
+                    "weight" : 3,
+                    "functions" :[
+                        {
+                            "function" :"minecraft:set_nbt",
+                            "tag": "{display:{Name:'{\"text\":\"吹き飛び弓\"}',Lore:['{\"text\":\"結構吹き飛ぶよ！\"}']},Damage:385,Enchantments:[{id:\"minecraft:punch\",lvl:15s}]}"
+                        }
+                    ]
+                },
+                {
+                    "type":"item",
+                    "name":"minecraft:arrow",
+                    "weight" : 4
+                }
+            ]
+        }
+    ]
+}
